@@ -5,8 +5,3 @@ files:
   - source: /
     destination: /var/www/html
  
-hooks:
-  AfterInstall:
-    - location: install.sh
-      timeout: 300
-      runas: root
