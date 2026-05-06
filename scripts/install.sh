@@ -1,7 +1,5 @@
 #!/bin/bash
 
-yum install -y httpd
+cd /home/ec2-user/app
 
-systemctl start httpd
-
-systemctl enable httpd
+npm install
